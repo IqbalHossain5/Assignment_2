@@ -1,0 +1,179 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    
+
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin:0 auto;
+}
+
+
+/* header tag start here */
+.images{
+    width: 200px;
+}
+
+
+
+header{
+    padding:25px 0;
+    background-color: #FAEBD7;
+    padding:35px;
+}
+.logo img{
+    width:200px ;
+}
+ul li{
+    list-style-type: none;
+    padding: 0 10px;
+}
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color:#000;
+    font-family: 'Domine', serif;
+}
+.top-main-bg-left button{
+    background-color:#A4BC46 ;
+    padding:10px;
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+}
+/* header tag end here */
+
+
+/* top main background section start here */
+#top-main-background{
+    background-color: #FAEBD7;
+    padding:35px;
+}
+.top-main-bg-left h1{
+    text-transform: uppercase;
+}
+.top-main-right img{
+    width: 70%;
+    display: flex;
+    justify-self: flex-end;
+}
+
+/* top main background section end here */
+
+
+/* woman jacket section start */
+
+#woman-jacket ,#man-jacket-section{
+    margin:30px;
+}
+.card{
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.404);
+    border-radius: 4px;
+    border:none;
+    margin:5px auto;
+}
+.card img{
+    width: 100%;
+    height: 240px;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.5);
+    border-radius: 10px;
+}
+.buttonn button{
+    background-color:#A4BC46 ;
+    padding:5px;
+    border-radius: 10px;
+    border:none;
+    color:#fff;
+}
+/* woman jacket section end */
+
+
+
+/* man jacket section start */
+#man-jacket-section .card img{
+    width: 100%;
+    height: 280px;
+}
+#man-jacket-section .card{
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.404);
+    border-radius: 4px;
+    border:none;
+    margin:  30px  ;
+    display: inline-block;
+    padding:7px;
+}
+
+/* man jacket section end */
+
+
+.seller-section-left img{
+    width: 100px;
+    height: 100px;
+}
+.seller-section-right img{
+    width: 100%;
+    height: 300px;
+}
+.sellerr {
+    background-color: #fff;
+    box-shadow: 2px 3px 6px rgba(0, 0, 0, 0.215);
+}
+
+
+  /*footer section start */
+
+  #footer{
+    background-color: #131516;
+    padding-top: 10rem ;
+    padding-left: 5rem;
+    padding-bottom: 8rem;
+}
+.contact h3{
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 0;
+}
+.contact p{
+    font-size: 1.2rem;
+    margin-top: 0;
+}
+.contact {
+    margin-bottom: 7rem;
+}
+.footer-left p{
+    font-size: 1.8rem;
+    color:#fff;
+}
+.footer-left  button{
+    width:90%;
+    background-color: #0E878B;
+    color:#fff;
+    padding:1.5rem;
+    transition: 0.4s;
+}
+.footer-left  button:hover{
+    background-color: #fff;
+    color: #000;
+}
+.footer-right p{
+    color:#fff;
+    font-size: 1rem;
+}
+.down-footer-left p{
+    font-size: 1rem;
+    color:#fff;
+}
+.down-footer-right-social a{
+    font-size: 1.5rem;
+    padding:0.5rem;
+}
+  /*footer section end */

@@ -1,0 +1,53 @@
+@media only screen and (max-width: 1200px),(min-width:1200px){
+    .menubar{
+        display:none;
+    }
+   
+
+}
+
+@media only screen and (max-width: 850px){
+    #man-jacket-section .card{
+        display:grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+@media only screen and (max-width: 680px){
+    ul li{
+        padding: 0 5px !important;
+    }
+    .card{
+        width: 50%;
+    }
+}
+@media only screen and (max-width: 680px){
+    .logo img{
+        width:150px !important;
+    }
+    ul li{
+        font-size: 12px;
+        padding:0 3px !important;
+    }
+    .card{
+        width: 100%;
+    }
+    .seller-section-left{
+        width: 100%;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right p {
+        
+        text-align: center !important;
+    }
+}
+@media only screen and (max-width: 570px){
+    .menubar{
+        display: inline-block;
+        padding:5px;
+        border:none;
+        background-color: #fff;
+    }
+}
